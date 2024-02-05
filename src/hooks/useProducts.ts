@@ -13,7 +13,6 @@ function useProducts(reload: boolean) {
       .then((resProducts) => {
         setProductsData(resProducts)
         setIsLoanding(false)
-        console.info("useProducts");
       })
       .catch((e) => {
         console.log('error', e)

@@ -1,0 +1,44 @@
+
+
+.product-card
+  display: grid
+  grid-template-columns: 1fr
+  grid-template-rows: auto auto auto
+  gap: 8px
+  padding-bottom: 12px
+  border-radius: 8px
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1)
+  transition: 0.2s transform
+  background: #FFFFFF
+
+  &:hover
+    transform: scale(1.02)
+
+  &__img
+    width: 100%
+    aspect-ratio: 3 / 2
+    border-radius: 8px 8px 0 0
+
+  &__header
+    display: flex
+    flex-direction: column
+    gap: 8px
+    margin: 0 12px
+    white-space: nowrap
+    overflow: hidden
+
+    h6
+      overflow: hidden
+      text-overflow: ellipsis
+
+    p
+      overflow: hidden
+      text-overflow: ellipsis
+      color: #9AA7D7
+
+  &__footer
+    display: flex
+    justify-content: space-between
+    align-items: center
+    padding: 0 12px
+    align-self: end

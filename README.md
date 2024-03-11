@@ -1,6 +1,6 @@
 # React Application
 
-Welcome to my React application for SDASE!
+Welcome to my React application!
 
 ## Prerequisites
 
